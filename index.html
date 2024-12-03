@@ -6,6 +6,38 @@
     <title>Document</title>
 </head>
 <body>
+
+<div class="container">
+    <h1>Student Registration Form</h1>
     
+    
+    <form id="registrationForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <select id="course" required>
+            <option value="">Select Course</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Graphic Design">Graphic Design</option>
+        </select>
+        <button type="submit">Register</button>
+    </form>
+
+    <h2>Student Details</h2>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Course</th>
+                <th>Profile Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Student records will be inserted here -->
+        </tbody>
+    </table>
+</div>
+
 </body>
 </html>
