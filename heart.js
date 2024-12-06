@@ -23,6 +23,6 @@ for(let i=n; i>0; i--){
     for(let j=1; j<i*2; j++){
         str += "*";
     }
-    str += "\n"
+    str += "\n";
 }
 console.log(str);
