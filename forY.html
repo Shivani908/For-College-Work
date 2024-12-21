@@ -5,13 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="">
+    <style>
+        span{
+            animation: rotateY 3s linear infinite;
+        }
+
+        @keyframes rotateY{
+            0%{
+                transform: rotateY(0deg);
+            }
+            100%{
+                transform: rotateY(360deg);
+            }
+        }
+    </style>
 </head>
-<body>
+<body style="height: 100vh; display: flex; color: white; align-items: center; justify-content: center; background-color: black;">
     
-    <p>
+    <p style="font-size: 10rem;">
         I 
-        <span>
-           🤍 
+        <span style="display: inline-block;">
+           ❤️
         </span>
         YOU
     </p>
