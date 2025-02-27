@@ -6,10 +6,16 @@
     <title>Media Embedding Example</title>
 </head>
 <body>
+
+
     <h1>HTML Media Example</h1>
 
     <h2>Image</h2>
     <img src="https://www.example.com/path/to/image.jpg" alt="Sample Image" width="500">
+                    
+                    <!-- src: Path to the image (could be a URL or a local file path). -->
+                    <!-- alt: Description of the image for accessibility (important for screen readers). -->
+                    <!-- width and height: Optional attributes to adjust the image size. -->
 
     <h2>Video</h2>
     <video width="600" controls>
@@ -18,12 +24,21 @@
         Your browser does not support the video tag.
     </video>
 
+                       <!-- controls: This adds play/pause, volume, and fullscreen buttons. -->
+                       <!-- src: Path to the video file (can be local or URL). -->
+                       <!-- type: MIME type for the video format (useful for multiple formats). -->
+
     <h2>Audio</h2>
     <audio controls>
         <source src="audio.mp3" type="audio/mpeg">
         <source src="audio.ogg" type="audio/ogg">
         Your browser does not support the audio tag.
     </audio>
+
+                     <!-- controls: Adds controls for play/pause, volume, etc. -->
+                     <!-- src: Path to the audio file (can be local or URL). -->
+                     <!-- type: MIME type for the audio format (useful for multiple formats). -->
+       
     
 </body>
 </html>
