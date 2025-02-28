@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Layout, Lists, and Tables</title>
+     <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main container layout */
+.main-container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Main content */
+main {
+    flex: 70%;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+/* Sidebar */
+aside {
+    flex: 30%;
+    padding: 20px;
+    background: #e2e2e2;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+     </style>
+</head>
+<body>
+    <header>
+        <h1>My Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="main-container">
+        <main>
+            <h2>Welcome to My Website!</h2>
+            <p>This is where I share my content.</p>
+            <h3>Ordered List Example</h3>
+            <ol>
+                <li>Learn HTML</li>
+                <li>Practice CSS</li>
+                <li>Build a website</li>
+            </ol>
+            <h3>Table Example</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product 1</td>
+                        <td>$10</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>$20</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        
+        <aside>
+            <h3>Sidebar</h3>
+            <ul>
+                <li>Quick Links</li>
+                <li>Newsletter</li>
+                <li>Recent Posts</li>
+            </ul>
+        </aside>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 My Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
